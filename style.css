@@ -1,4 +1,42 @@
 body {
-    background-color:black;
-    color: white;
+  background-color: blue;
+  color: yellow;
 }
+a { color: white;
+}
+.button {
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
+    
+    .button1 {
+      background-color: #450EFF; 
+      color: black; 
+      border: 2px solid #000000;
+    }
+    
+    .button1:hover {
+      background-color: #FF911A;
+      color: white;
+      transform: scale(1.10);
+    }
+
+        .button2 {
+      background-color: #450EFF; 
+      color: black; 
+      border: 2px solid #000000;
+    }
+    
+    .button2:hover {
+      background-color: #E100F5;
+      color: white;
+      transform: scale(1.10);
+    }    
